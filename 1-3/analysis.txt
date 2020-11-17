@@ -1,0 +1,4 @@
+Post-process Analysis
+('Average Magnitude', 0.09786552937565769)
+('Average Angular Velocity', -1088.0803441893481)
+('Average Theta', 51.566721892047674)
