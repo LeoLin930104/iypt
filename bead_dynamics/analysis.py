@@ -1,9 +1,9 @@
 import bead_dynamics_funcs as bda
-
+RADIUS = [0.125, 0.15, 0.175]
 # Utilizing Functions to make Analysis to Data, and Write into new Files
 def process(i: int, j: int):
-    RADIUS = [0.125, 0.15, 0.175]
-    filedir = "C:\Development\pythonwork\\Tracker\\{}-{}\\{}.txt"
+    
+    filedir = "C:\Development\pythonwork\iypt\\bead_dynamics\\{}-{}\\{}.txt"
 
     t_title, T = "Time", []
     x_title, X = "X-coordinate", []
@@ -31,13 +31,28 @@ def analyze(T: list, R:list, A: list, RA: list, Th: list, i:int, j: int):
     am_title, am = "Average Magnitude", sum(R) / float(len(R))
     aav_title, aav = "Average Angular Velocity", min(RA) / max(T)
     ath_title, ath = "Average Theta", sum(Th) / float(len(Th))
-    data = [(am_title, am), (aav_title, aav), (ath_title, ath)]
+    data = [am, aav, ath]
 
-    filedir = "C:\Development\pythonwork\\Tracker\\{}-{}\\{}.txt"
+    filedir = "C:\Development\pythonwork\iypt\\bead_dynamics\\{}-{}\\{}.txt"
     bda.write_data('Post-process Analysis', data, filedir.format(i, j, 'analysis'))
 
 # Execution
 if __name__ == "__main__":
-    for i in range(3): 
-        for j in range(3): 
-            process(i+1, j+1)
+    filedir = "C:\Development\pythonwork\iypt\\bead_dynamics\\{}-{}\\{}.txt"
+    
+    for i in range(3):
+        am = []
+        aav = []
+        ath = []
+        for j in range(3):
+            f = open(filedir.format(i+1, j+1, 'analysis'))
+            title = f.readline()
+            title = title[:len(title)-1]
+            temp = f.readline()
+            am.append(float(temp[:len(temp)-1]))
+            temp = f.readline()
+            aav.append(abs(float(temp[:len(temp)-1])))
+            temp = f.readline()
+            ath.append(float(temp[:len(temp)-1]))
+            f.close()
+        bda.display("Radius: " + str(RADIUS[i]), "angular velocity", "average theta", aav, ath)   

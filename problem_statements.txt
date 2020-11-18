@@ -1,0 +1,69 @@
+1. Invent Yourself
+
+	Design a boat that moves only due to the periodical mechanical movements of its internal parts and which only interacts with the environment (air, water) through its stiff hull. Optimise the parameters of your boat for maximum speed.
+
+2. Circling Magnets
+
+	Button magnets with different diameters are attached to each end of a cylindrical battery. When placed on an aluminium foil the object starts to circle. Investigate how the motion depends on relevant parameters.
+
+3.Proximity Sensor
+ 
+	A simple passive inductive sensor can detect ferromagnetic objects moving through its magnetic field. Construct such a passive sensor and investigate its characteristics such as sensing range.
+
+4. Wind Speed
+
+	Let an electric current flow through a coil. When cold air flows over the coil, the coil’s temperature will decrease. Investigate how the temperature drop depends on the wind speed. What is the accuracy of this method of measuring the wind speed?
+
+5. Synchronised Candles
+
+	Oscillatory flames can be observed when several candles burn next to each other. Two such oscillators can couple with each other, resulting in in-phase or anti-phase synchronisation (depending on the distance between the sets of candles). Explain and investigate this phenomenon.
+
+6. Irreversible Cartesian Diver
+
+	A simple Cartesian diver (e.g. an inverted test tube partially filled with water) is placed in a long vertical tube filled with water. Increasing the pressure in the tube forces the Cartesian diver to sink. When it reaches a certain depth, it never returns to the surface even if the pressure is changed back to its initial value. Investigate this phenomenon and how it depends on relevant parameters.
+
+7. Bead Dynamics
+
+	A circular hoop rotates about a vertical diameter. A small bead is allowed to roll in a groove on the inside of the hoop. Investigate the relevant parameters affecting the dynamics of the bead.
+
+8. Fuses
+
+	A short length of wire can act as an electrical fuse. Determine how various parameters affect the time taken for the fuse to ‘blow’.
+
+9. Light Whiskers
+
+	When a laser beam enters a soap film at a small angle, a rapidly changing pattern of thin, branching light tracks may appear inside the film. Explain and investigate this
+phenomenon.
+
+10. Spin Drift
+
+	When a ring is set to roll in a parabolic bowl, interesting motion patterns may arise. Investigate this phenomenon.
+
+11. Guitar String
+
+	A periodic force is applied to a steel guitar string using an electromagnet. Investigate the motion of the guitar string around its resonance frequency.
+
+12. Wilberforce Pendulum
+
+	A Wilberforce pendulum consists of a mass hanging from a vertically oriented helical spring. The mass can both move up and down on the spring and rotate about its vertical axis. Investigate the behaviour of such a pendulum and how it depends on relevant parameters.
+
+13. Sponge
+
+	A sponge will soak up water at a rate and in a quantity determined by various parameters. Investigate how effective a sponge is at drying a wet surface.
+
+14. Dynamic Hydrophobicity
+
+	When a drop of liquid impacts on a horizontally moving surface, the droplet may be reflected or not, depending on the speed of the surface. Investigate the interaction
+between a moving surface and a liquid drop.
+
+15. Rebounding Capsule
+
+	A spherical ball dropped onto a hard surface will never rebound to the release height, even if it has an initial spin. A capsule-shaped object (i.e. Tic Tac mint) on the other hand may exceed the initial height. Investigate this phenomenon.
+
+16. Ultrasonic Pump
+
+	A capillary immersed in an ultrasonic bath works like a pump that can lift water to a considerable height. Explain and investigate this phenomenon.
+
+17. Hand Helicopter
+
+	A simple hand helicopter can be made by attaching rotor blades to one end of a vertical stick. The helicopter moves upwards when the stick is twisted at a high enough speed and then let go. Investigate how the relevant parameters affect the lift-off and the maximum height.
