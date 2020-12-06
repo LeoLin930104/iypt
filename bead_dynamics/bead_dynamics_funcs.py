@@ -11,11 +11,14 @@ def import_data(filedir: str) -> list:
     return arr
 
 # Display Function
-def display(title: str, xlabel: str, ylabel: str, X: list, Y: list):
+def set_display(title: str, xlabel: str, ylabel: str, X: list, Y: list):
     pyplot.title(title)
     pyplot.xlabel(xlabel)
     pyplot.ylabel(ylabel)
+    pyplot.ylim(0, max(Y)+10)
+    pyplot.xlim(0, max(X)+10)
     pyplot.plot(X, Y)
+def show_display():
     pyplot.show()
 
 # Calculate Magnitude
@@ -52,10 +55,10 @@ def rotational_angle(A: list) -> list:
     return RA
 
 # Calculate Theta Correspond to Radius
-def theta(R: list, RADIUS: float) -> list:
+def theta(R: list, RADIUS: float, RADIUS_B: float) -> list:
     Th = []
     for i, r in enumerate(R):
-        Th.append( math.degrees( math.asin( r/RADIUS ) ) )
+        Th.append( math.degrees( math.asin( r*100 / ( RADIUS - RADIUS_B ) ) ) )
     return Th
 
 # Writing Data into New File
